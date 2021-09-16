@@ -1,0 +1,68 @@
+.u-section-1 {
+  background-image: url("images/favicon.jpg?rand=2a9a");
+  background-position: 50% 50%;
+}
+
+.u-section-1 .u-sheet-1 {
+  min-height: 972px;
+}
+
+.u-section-1 .u-image-1 {
+  width: 361px;
+  height: 361px;
+  background-image: url("images/new.jpg");
+  background-position: 50% 50%;
+  margin: 36px auto 0 368px;
+}
+
+.u-section-1 .u-text-1 {
+  font-size: 1.875rem;
+  background-image: none;
+  margin: 280px 364px 60px 321px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-text-1 {
+    font-weight: normal;
+    font-style: italic;
+    margin-left: 221px;
+    margin-right: 264px;
+    width: 438px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-image-1 {
+    margin-left: 359px;
+  }
+
+  .u-section-1 .u-text-1 {
+    margin-left: 111px;
+    margin-right: 154px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-image-1 {
+    margin-left: 179px;
+  }
+
+  .u-section-1 .u-text-1 {
+    margin-left: 21px;
+    margin-right: 64px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-image-1 {
+    width: 340px;
+    height: 340px;
+    margin-left: 0;
+  }
+
+  .u-section-1 .u-text-1 {
+    margin-left: 0;
+    margin-right: 0;
+    width: 340px;
+  }
+}
